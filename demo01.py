@@ -30,15 +30,15 @@ print(2>3)
 # b = input("请输入：")
 # print("长度和为",len(a)+len(b))
 
-# #元组
-#a = (1,2,3,4,"哈哈","哈哈","哈哈","哈哈","哈哈","嘻嘻",True,False)
+#元组
+# a = (1,2,3,4,"哈哈","哈哈","哈哈","哈哈","哈哈","嘻嘻",True,False)
 # print(a[3])
 # print(a)
 # print(a.index("哈哈"))
 # print(a.index("嘻嘻"))
 # print(a.count("哈哈"))
 # 二维元组
-
+# a = (1,2,3,4,"哈哈","哈哈","哈哈","哈哈","哈哈","嘻嘻",True,False)
 # b = (a,"哈哈","嘻嘻")
 # print(b[0])
 # print(b[2])
@@ -52,10 +52,11 @@ print(2>3)
 # print(a[0:4])  #左闭右开
 # print(a[4:9])
 # print(a[9:])
+
 #数组[]
 # a = [1,2,3,4,"哈哈","嘻嘻",True,False]
 
-# # 元组一旦写好不可以修改，而数组是可以修改的
+# 元组一旦写好不可以修改，而数组是可以修改的
 # a.append("append1")
 # a.append("append2")
 # print(a)
@@ -71,12 +72,11 @@ print(2>3)
 # print(b+c)
 # print(a)
 
-# a.clear()
+# #a.clear()
 
 # xx = ["您好","不好"]
 # # a.extend(xx)
 # print(a+xx)
-
 
 # print(a)
 # a.remove("哈哈")
@@ -100,6 +100,7 @@ python的语法
 1、字典中的值没有顺序
 2、字典的结构必须是键值对的结构。  key:value
 3、字典的取值，是通过key去取value的
+"""
 """
 a = {"name":"张三",
       0:"哈哈",
@@ -135,3 +136,12 @@ del a["name"]
 print(a)
 
 del a[0]
+"""
+
+# a = input('请输入名字：')
+# b = input('请输入年龄：')
+# c = input('请输入性别：')
+# userinfo = {}
+# userinfo.update(name=a,age=b,gender=c)
+
+# print(userinfo)
